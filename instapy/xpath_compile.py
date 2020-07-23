@@ -142,8 +142,8 @@ xpath["like_comment"] = {
 }
 
 xpath["like_image"] = {
-    "like": "//section/span/button/div[*[local-name()='svg']/@aria-label='Like']",
-    "unlike": "//section/span/button/div[*[local-name()='svg']/@aria-label='Unlike']",
+    "like": "//*[@id="react-root"]/section/main/div/div[1]/article/div[3]/section[1]/span[1]/button/div/svg",
+    "unlike": "//*[@id="react-root"]/section/main/div/div[1]/article/div[3]/section[1]/span[1]/button/div/svg",
 }
 
 xpath["like_from_image"] = {
